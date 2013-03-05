@@ -1,0 +1,5 @@
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Example.Resource\bin\Debug\T4Example.Resource.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Example.Resource\bin\Debug\T4Example.Resource.pdb
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Example.Resource\obj\Debug\T4Example.Resource.csprojResolveAssemblyReference.cache
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Example.Resource\obj\Debug\T4Example.Resource.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Example.Resource\obj\Debug\T4Example.Resource.pdb
