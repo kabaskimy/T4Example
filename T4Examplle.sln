@@ -5,6 +5,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4Exmaple.ConsoleExample", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4Example.Resource", "T4Example.Resource\T4Example.Resource.csproj", "{C210B4AA-9E87-4FD8-8D67-6F9DCD9DE6AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DX.Framework.ResourceTemplate", "DX.Framework.ResourceTemplate\DX.Framework.ResourceTemplate.csproj", "{6AC71AF2-9185-4CA6-B9E4-037A4C31C7E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dll", "dll", "{8CF1683C-2E3E-48FC-9517-8C6CC11EC7A1}"
+	ProjectSection(SolutionItems) = preProject
+		DX.Framework.ResourceTemplate\bin\Debug\DX.Framework.ResourceTemplate.dll = DX.Framework.ResourceTemplate\bin\Debug\DX.Framework.ResourceTemplate.dll
+		DX.Framework.ResourceTemplate\bin\Debug\Ionic.Zip.dll = DX.Framework.ResourceTemplate\bin\Debug\Ionic.Zip.dll
+		DX.Framework.ResourceTemplate\bin\Debug\NPOI.dll = DX.Framework.ResourceTemplate\bin\Debug\NPOI.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{B070D527-47F7-4872-9930-9B8F28435039}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\DX.Framework.ResourceTemplate.dll = Lib\DX.Framework.ResourceTemplate.dll
+		Lib\DX.Framework.ResourceTemplate.pdb = Lib\DX.Framework.ResourceTemplate.pdb
+		Lib\Ionic.Zip.dll = Lib\Ionic.Zip.dll
+		Lib\NPOI.dll = Lib\NPOI.dll
+		Lib\NPOI.xml = Lib\NPOI.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +37,10 @@ Global
 		{C210B4AA-9E87-4FD8-8D67-6F9DCD9DE6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C210B4AA-9E87-4FD8-8D67-6F9DCD9DE6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C210B4AA-9E87-4FD8-8D67-6F9DCD9DE6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC71AF2-9185-4CA6-B9E4-037A4C31C7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC71AF2-9185-4CA6-B9E4-037A4C31C7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC71AF2-9185-4CA6-B9E4-037A4C31C7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC71AF2-9185-4CA6-B9E4-037A4C31C7E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,3 +4,6 @@ F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Exmaple.ConsoleEx
 F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Exmaple.ConsoleExample\obj\Debug\T4Exmaple.ConsoleExample.csprojResolveAssemblyReference.cache
 F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Exmaple.ConsoleExample\obj\Debug\T4Exmaple.ConsoleExample.exe
 F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Exmaple.ConsoleExample\obj\Debug\T4Exmaple.ConsoleExample.pdb
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Exmaple.ConsoleExample\bin\Debug\Ionic.Zip.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Exmaple.ConsoleExample\bin\Debug\NPOI.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\T4Exmaple.ConsoleExample\bin\Debug\NPOI.xml

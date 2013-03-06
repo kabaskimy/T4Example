@@ -32,6 +32,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DX.Framework.ResourceTemplate">
+      <HintPath>..\DX.Framework.ResourceTemplate\bin\Debug\DX.Framework.ResourceTemplate.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DX.Framework.ResourceTemplate\bin\Debug\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.5.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DX.Framework.ResourceTemplate\bin\Debug\NPOI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,34 +52,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CsvDataProvider.cs" />
+    <Compile Include="CsvDataProvider1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CsvDataProvider.ttclass</DependentUpon>
+    </Compile>
+    <Compile Include="MultipleOutputHelper.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MultipleOutputHelper.ttclass</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="MultilanguageTemplate.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>MultilanguageTemplate.txt</LastGenOutput>
+    </None>
+    <None Include="ResourceCSV\Checkout\checkout.xls" />
+    <None Include="ResourceCSV\Checkout\shippinginfo.xls" />
     <None Include="T4Xml.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>T4Xml.txt</LastGenOutput>
     </None>
+    <None Include="CsvDataProvider.ttclass">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>CsvDataProvider1.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ResourceCSV\cart.txt">
-      <DependentUpon>T4Xml.tt</DependentUpon>
+    <Content Include="MultilanguageTemplate.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MultilanguageTemplate.tt</DependentUpon>
     </Content>
-    <Content Include="ResourceCSV\Checkout\cart.xml" />
-    <Content Include="ResourceCSV\Test.xml" />
     <Content Include="T4Xml.txt">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>T4Xml.tt</DependentUpon>
     </Content>
-    <Content Include="Test.txt">
-      <DependentUpon>T4Xml.tt</DependentUpon>
-    </Content>
-    <None Include="MultipleOutputHelper.ttinclude" />
+    <None Include="MultipleOutputHelper.ttclass">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>MultipleOutputHelper.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="checkout.en.resx">
+      <DependentUpon>MultilanguageTemplate.tt</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkout.ru.resx">
+      <DependentUpon>MultilanguageTemplate.tt</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shippinginfo.en.resx">
+      <DependentUpon>MultilanguageTemplate.tt</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shippinginfo.ru.resx">
+      <DependentUpon>MultilanguageTemplate.tt</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,24 @@
+﻿<#@ assembly name="System.Core"
+#><#@ assembly name="System.Data.Linq"
+#><#@ assembly name="EnvDTE"
+#><#@ assembly name="System.Xml"
+#><#@ assembly name="System.Xml.Linq"
+#><#@ import namespace="System"
+#><#@ import namespace="System.CodeDom"
+#><#@ import namespace="System.CodeDom.Compiler"
+#><#@ import namespace="System.Collections.Generic"
+#><#@ import namespace="System.Data.Linq"
+#><#@ import namespace="System.Data.Linq.Mapping"
+#><#@ import namespace="System.IO"
+#><#@ import namespace="System.Linq"
+#><#@ import namespace="System.Reflection"
+#><#@ import namespace="System.Text"
+#><#@ import namespace="System.Xml.Linq"
+#><#@ import namespace="Microsoft.VisualStudio.TextTemplating"
+#><#+
+// https://raw.github.com/damieng/DamienGKit
+// http://damieng.com/blog/2009/11/06/multiple-outputs-from-t4-made-easy-revisited
+
+// Manager class records the various blocks so it can split them up
+class CsvProvider {
+} #>

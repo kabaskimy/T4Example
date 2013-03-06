@@ -8,7 +8,7 @@
 <#@ assembly name="EnvDTE" #>
 <#@ import namespace="System.IO" #>
 <#@ output extension=".txt" #>
-<#@ include file="MultipleOutputHelper.ttinclude" #>
+<#@ include file="MultipleOutputHelper.ttclass" #>
 <# var manager = Manager.Create(Host, GenerationEnvironment); #>
 <#
 var path = Host.ResolvePath(@"ResourceCSV");
@@ -28,6 +28,7 @@ foreach (FileInfo item in files)
    else
    {
       fileFullName=fileName;
+	  fullPath=fileName;
 	}
    manager.StartNewFile(fileFullName);
 #>

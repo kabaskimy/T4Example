@@ -1,0 +1,8 @@
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\DX.Framework.ResourceTemplate\bin\Debug\DX.Framework.ResourceTemplate.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\DX.Framework.ResourceTemplate\bin\Debug\DX.Framework.ResourceTemplate.pdb
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\DX.Framework.ResourceTemplate\bin\Debug\Ionic.Zip.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\DX.Framework.ResourceTemplate\bin\Debug\NPOI.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\DX.Framework.ResourceTemplate\bin\Debug\NPOI.xml
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\DX.Framework.ResourceTemplate\obj\Debug\DX.Framework.ResourceTemplate.csprojResolveAssemblyReference.cache
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\DX.Framework.ResourceTemplate\obj\Debug\DX.Framework.ResourceTemplate.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\ProMvc4\T4Examplle\DX.Framework.ResourceTemplate\obj\Debug\DX.Framework.ResourceTemplate.pdb
